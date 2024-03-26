@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유튜브 구독목록</title> 
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; /* 페이지 상단 여백  */
+            padding: 0;/* 페이지 좌우 여백 */
+            background-color: #ffd6d6;
+        }
+
+        .container {
+            display: flex; /* 플렉스 박스로 설정하여 요소들을 가로로 */
+            justify-content: center; /* 요소들을 수평 중앙으로 */
+            align-items: center; /* 요소들을 수직 중앙으로 */
+            flex-wrap: wrap; /* 요소가 박스를 넘치면 줄바꿈 */
+            padding: 10px;/*여백의 미 */
+        }
+
+        .picture {
+            width: calc(50% - 20px);
+            max-width: 200px; /* 최대 너비 */
+            height: 250px; /* 높이 */
+            background-color: #fff; 
+            border-radius: 10px; /*모서리 둥글게 */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 효과를 추가 */
+            margin: 10px; /* 박스 주위에 여백*/
+            padding: 30px; /* 내부에 여백 */
+            text-align: center; /* 글자 가운데 정렬 */
+        }
+    
+        .picture img {
+            width: 150px; 
+            height: 150x; 
+            border-radius: 50%; 
+            margin-bottom: 10px;
+        }
+    
+        .picture h3 {
+            font-size: 16px; 
+            margin-bottom: 5px; /* 제목 아래 여백 */
+        }
+    
+        .picture p {
+            font-size: 14px; 
+            color: #5e4cc4; 
+        }
+
+        @media only screen and (max-width: 600px) {
+            .container {
+                flex-direction: column; 
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="picture">
+            <img src="https://yt3.googleusercontent.com/ytc/AIdro_nd0jiGAAk7NwRjZMEACnS-xefjSZRsvQ_1gUiqgw=s176-c-k-c0x00ffffff-no-rj" alt="">
+            <h3>ITSub잇섭</h3>
+            <p>전전컴의직업병</p>
+        </div>
+        <div class="picture">
+            <img src="https://yt3.googleusercontent.com/ytc/AIdro_lxQkhffVgl5SVcwwDeZJPYY3hA5eY2VcOlN7PZ6w=s176-c-k-c0x00ffffff-no-rj" alt="">
+            <h3>슈카월드</h3>
+            <p>새우맛있어보임</p>
+        </div>
+        <div class="picture">
+            <img src="https://yt3.googleusercontent.com/ytc/AIdro_ksZ75YrKLp6c4Hz_gjsPK2KlZTChy_xRzhwbO8BQ=s176-c-k-c0x00ffffff-no-rj" alt="">
+            <h3>우키팝</h3>
+            <p>음악조아</p>
+        </div>
+        <div class="picture">
+            <img src="https://yt3.googleusercontent.com/ytc/AIdro_kECDu7hmFYj-ZTAeV7uOjeCe5feW5CBKFHB0Xn=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+            <h3>피식대학</h3>
+            <p>욱김</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="picture">
+            <img src="https://yt3.ggpht.com/C7bTHnoo1S_MRbJXn4VwncNpB87C2aioJC_sKvgM-CGw_xgdxwiz0EFEqzj0SRVz6An2h81T4Q=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+            <h3>침착맨</h3>
+            <p>잘생김</p>
+        </div>
+        <div class="picture">
+            <img src="https://yt3.ggpht.com/eNudaflqbd8x-Opg0hzIY628FcEFdO-hlwhxQt6c_qlqMOTbhjb2Ghfkhzuy4adw_8jxslcaQg=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+            <h3>스포티비</h3>
+            <p>스포츠를스포함</p>
+        </div>
+        <div class="picture">
+            <img src="https://yt3.ggpht.com/bXhjA2E3usatJoiJ4w3OD81jVIzyVd1rulOml7IcEzK_YRvjJGvp27kptPjqdMTqcbWbysQbgMs=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+            <h3>서울시립대</h3>
+            <p>애교심</p>
+        </div>
+        <div class="picture">
+            <img src="https://yt3.ggpht.com/gsNDSfvzKpZT0OEjTBFH5PxokZ7WeZQU5PcsMWD8vJyBI6ts4uUDic_KsipnVbIUhtToblLaig=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+            <h3>KBS News</h3>
+            <p>유식한척가능</p>
+        </div>
+    </div>
+</body>
+</html>
